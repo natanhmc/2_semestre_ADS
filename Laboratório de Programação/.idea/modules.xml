@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Laboratório de Programação.iml" filepath="$PROJECT_DIR$/.idea/Laboratório de Programação.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula_1/aula_1.iml" filepath="$PROJECT_DIR$/aula_1/aula_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula_2/aula_2.iml" filepath="$PROJECT_DIR$/aula_2/aula_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula_4/aula_4.iml" filepath="$PROJECT_DIR$/aula_4/aula_4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula_6/aula_6.iml" filepath="$PROJECT_DIR$/aula_6/aula_6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aula_7/aula_7.iml" filepath="$PROJECT_DIR$/aula_7/aula_7.iml" />
+    </modules>
+  </component>
+</project>

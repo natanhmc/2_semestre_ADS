@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5badc8ea-0c3d-4dee-8908-694f4c7b1654" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../aula_4/Exercicios/out/production/Exercicios/Exer2_precosFarmacia.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../aula_4/Exercicios/out/production/Exercicios/Exer2_precosFarmacia.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aula_4/exemplos/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../aula_4/exemplos/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aula_4/exemplos/ceil.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../aula_4/exemplos/ceil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aula_4/exemplos/out/production/aula_4/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../aula_4/exemplos/out/production/aula_4/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../aula_4/exemplos/out/production/aula_4/ceil.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../aula_4/exemplos/out/production/aula_4/ceil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programação Web/projeto/www/controllers/ClientController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programação Web/projeto/www/controllers/ClientController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programação Web/projeto/www/controllers/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programação Web/projeto/www/controllers/SiteController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programação Web/projeto/www/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programação Web/projeto/www/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programação Web/projeto/www/views/templates/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programação Web/projeto/www/views/templates/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Programação Web/projeto/www/views/templates/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Programação Web/projeto/www/views/templates/header.php" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="2EjRZc8gmhJRZHJaSW8b39IPO8b" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5badc8ea-0c3d-4dee-8908-694f4c7b1654" name="Changes" comment="" />
+      <created>1663107063824</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663107063824</updated>
+      <workItem from="1663107065226" duration="32000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
