@@ -17,7 +17,7 @@ class ClientController
         while ($line = $result->fetch_assoc()) {
             array_push($arrayClients, $line);
         }
-        header('Content-Type: applicantion/json');
+        // header('Content-Type: applicantion/json');
         echo json_encode($arrayClients);
     }
 
