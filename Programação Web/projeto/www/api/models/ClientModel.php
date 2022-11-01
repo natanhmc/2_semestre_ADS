@@ -46,6 +46,7 @@ class ClientModel
         return $this->Connection -> insert_id;
 
     }
+    
     public function updateClient($idClient,$client)
     {
         $sql = "

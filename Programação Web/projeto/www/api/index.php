@@ -42,9 +42,28 @@ if(isset($uriSegments[1])){
 			switch($request_method){
 				case 'GET':
 					$user -> validateLogin();
-					break;
-				}
-			break;
+				break;
+			}
+		break;
+		case 'contact':
+			require_once("controllers/ContactController.php");
+			$contact = new ContactController();
+			switch($request_method){
+				case 'POST':
+					$contact -> insertContact();
+				break;
+				case 'GET':
+					require_once("controllers/UserController.php");
+					$user = new UserController();
+					if($user -> isAdmin()){
+						if(!isset($uriSegments[2]))
+							$contact -> listContacts();
+						else
+							$contact -> consultContact($uriSegments[2]);
+					}
+
+			}
+		break;
 	}
 }
 ?>
