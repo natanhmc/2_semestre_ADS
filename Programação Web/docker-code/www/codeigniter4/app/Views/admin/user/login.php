@@ -21,11 +21,18 @@
         <div class="col-md-4"></div>
         <div class="col-md-4 mt-3">
         <h1>Login no sistema</h1>
+        <?php 
+                $session = \Config\Services::session();
+                if($session -> has('error')){
+                    echo 'algo deu errado';
+                };
+
+        ?>
         
 			<form action="<?=base_url('admin/validateLogin')?>" method=POST name="formulario" id="formulario">
 				<div class="form-group m-4">
 					<label >Login</label>
-					<input type="text" class="form-control" name="login" placeholder="Digite o usuário">				
+					<input type="text" class="form-control" name="user" placeholder="Digite o usuário">				
 				</div>
 				<div class="form-group m-4">
 		 			<label >Senha</label>

@@ -8,22 +8,24 @@ use App\Models\UserModel;
 class User extends BaseController{
     
     public function validateLogin(){
-        $userName = $this -> request -> getVar('login');
+        $userName = $this -> request -> getVar('user');
         $userPassword = $this -> request -> getVar('password');
 
         $UserModel = new UserModel();
+        $session = \Config\Services::session();
 
        if($user = $UserModel -> getUser($userName)){
 
             if($user['password'] == $userPassword){
-                $session = \Config\Services::session();
                 $session -> set('user', $user);
                 return redirect()->to(base_url('/admin'));
             }else{
-                echo 'senha invalida';
+                $session -> set('erro', "senha invlida");
+                return redirect()->to(base_url('/admin/login'));
             }
        }else{
-            echo 'usuario nao existe';
-       }  
+        $session -> set('erro', "usuario nao existe");
+        return redirect()->to(base_url('/admin/login'));
+    }  
     }
 }

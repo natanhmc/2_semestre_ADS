@@ -5,6 +5,9 @@ use App\Models\ClientModel;
 use App\Controllers\BaseController;
 
 class Client extends BaseController{
+
+    var $ClientModel;
+
     public function __construct(){
         $session = \Config\Services::session();
 
@@ -16,19 +19,17 @@ class Client extends BaseController{
     }
    
 
-    public function listClient(){
-        $ClientModel = new ClientModel();
-        
+    public function listClients(){
+        $ClientModel = new ClientModel;
         $data = [
-           'arrayClients' => $ClientModel -> findAll(),
-        ];
-        
-
+            'clients' => $ClientModel -> findAll(),
+         ];
         echo view('admin/templates/header');
         echo view('admin/clients/listClient',$data);
         echo view ('admin/templates/footer');
         
     }
+
     public function insertClient(){
         echo view('admin/templates/header');
         echo view('admin/clients/insert');
@@ -36,41 +37,42 @@ class Client extends BaseController{
         
     }
     public function insertClientAction(){
+        $ClientModel = new ClientModel;
         $data =[
             'name'=> $this -> request -> getVar('name'),
             'email'=> $this -> request -> getVar('email'),
             'phone'=> $this -> request -> getVar('phone'),
             'address'=> $this -> request -> getVar('address')
         ];
-        $ClientModel = new ClientModel();
-        $ClientModel -> insert($data);
+
+        $ClientModel-> insert($data);
         return redirect()->to(base_url('admin/listClients'));
     }
     public function updateClient($idClient){
-        $ClientModel = new ClientModel();
-
+        $ClientModel = new ClientModel;
         $data = [
-           'arrayClient' => $ClientModel -> find($idClient),
+           'client' => $ClientModel -> find($idClient),
         ];
         echo view('templates/header');
-        echo view('admin/client/updateClient',$data);
+        echo view('admin/clients/updateClient',$data);
         echo view ('templates/footer');
     }
     public function updateClientAction($idClient){
+        $ClientModel = new ClientModel;
         $data =[
             'name'=> $this -> request -> getVar('name'),
             'email'=> $this -> request -> getVar('email'),
             'phone'=> $this -> request -> getVar('phone'),
             'address'=> $this -> request -> getVar('address')
         ];
-        $ClientModel = new ClientModel();
-        $ClientModel -> insert($idClient,$data);
+        $ClientModel -> update($idClient,$data);
         return redirect()->to(base_url('admin/listClients'));
     }
 
     public function deleteClient($idClient){
-        $ClientModel = new ClientModel();
+        $ClientModel = new ClientModel;
         $ClientModel -> delete($idClient);
+        return redirect()->to(base_url('admin/listClients'));
 
     }
 

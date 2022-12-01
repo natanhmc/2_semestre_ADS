@@ -7,7 +7,6 @@ use App\Controllers\BaseController;
 class Admin extends BaseController{
     public  function index(){
         $session = \Config\Services::session();
-
         if( $session ->has('user')){
             echo view('admin/templates/header');
             echo view('admin/templates/home');

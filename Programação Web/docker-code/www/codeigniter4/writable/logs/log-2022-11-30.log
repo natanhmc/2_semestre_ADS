@@ -1,0 +1,170 @@
+CRITICAL - 2022-11-30 17:27:22 --> Call to a member function findAll() on null
+in APPPATH/Controllers/Admin/Client.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->listClient()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 17:28:16 --> Call to a member function findAll() on null
+in APPPATH/Controllers/Admin/Client.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->listClient()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 17:28:19 --> Call to a member function findAll() on null
+in APPPATH/Controllers/Admin/Client.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->listClient()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 17:30:44 --> Call to a member function findAll() on null
+in APPPATH/Controllers/Admin/Client.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->listClient()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 17:31:38 --> Call to a member function findAll() on null
+in APPPATH/Controllers/Admin/Client.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->listClient()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 17:31:53 --> Call to a member function findAll() on null
+in APPPATH/Controllers/Admin/Client.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->listClient()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 17:34:27 --> Call to a member function findAll() on null
+in APPPATH/Controllers/Admin/Client.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->listClient()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 17:41:14 --> Unclosed '{' on line 6
+in APPPATH/Controllers/Client.php on line 19.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH/Controllers/Client.php')
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Client')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Client')
+ 4 SYSTEMPATH/CodeIgniter.php(877): class_exists('\\App\\Controllers\\Client', true)
+ 5 SYSTEMPATH/CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 17:42:46 --> Call to a member function findAll() on null
+in APPPATH/Controllers/Admin/Client.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->listClient()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 17:44:15 --> Call to a member function findAll() on null
+in APPPATH/Controllers/Admin/Client.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->listClients()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 17:47:25 --> Call to a member function findAll() on null
+in APPPATH/Controllers/Admin/Client.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->listClients()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 17:48:22 --> Call to a member function findAll() on null
+in APPPATH/Controllers/Admin/Client.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->listClients()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 17:49:10 --> Call to a member function findAll() on null
+in APPPATH/Controllers/Admin/Client.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->listClients()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 17:49:21 --> Call to a member function findAll() on null
+in APPPATH/Controllers/Admin/Client.php on line 25.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->listClients()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 17:51:16 --> Call to a member function findAll() on null
+in APPPATH/Controllers/Admin/Client.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->listClients()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 17:52:34 --> Call to a member function insert() on null
+in APPPATH/Controllers/Admin/Client.php on line 46.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->insertClientAction()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 17:55:19 --> Constant expression contains invalid operations
+in APPPATH/Controllers/Admin/Client.php on line 9.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-11-30 17:56:58 --> Call to a member function insert() on null
+in APPPATH/Controllers/Admin/Client.php on line 46.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->insertClientAction()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 17:57:57 --> Call to a member function findAll() on null
+in APPPATH/Controllers/Admin/Client.php on line 24.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->listClients()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 18:02:54 --> Call to a member function findAll() on null
+in APPPATH/Controllers/Client.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Client->listClient()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 18:03:22 --> Call to a member function findAll() on null
+in APPPATH/Controllers/Client.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Client->listClient()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 18:04:06 --> Call to a member function findAll() on null
+in APPPATH/Controllers/Client.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Client->listClient()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 18:04:12 --> Call to a member function findAll() on null
+in APPPATH/Controllers/Client.php on line 10.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Client->listClient()
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Client))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 18:09:31 --> Call to a member function find() on null
+in APPPATH/Controllers/Admin/Client.php on line 56.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->updateClient('2')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 18:10:04 --> Invalid file: admin/client/updateClient.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/client/updateClient.php')
+ 2 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/client/updateClient', [], true)
+ 3 APPPATH/Controllers/Admin/Client.php(60): view('admin/client/updateClient', [...])
+ 4 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->updateClient('2')
+ 5 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 6 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 18:12:13 --> Undefined variable $clients
+in APPPATH/Views/admin/clients/updateClient.php on line 2.
+ 1 APPPATH/Views/admin/clients/updateClient.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $clients', 'APPPATH/Views/admin/clients/updateClient.php', 2)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/admin/clients/updateClient.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1134): CodeIgniter\View\View->render('admin/clients/updateClient', [], true)
+ 5 APPPATH/Controllers/Admin/Client.php(60): view('admin/clients/updateClient', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->updateClient('2')
+ 7 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 8 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-30 18:13:22 --> Call to a member function update() on null
+in APPPATH/Controllers/Admin/Client.php on line 70.
+ 1 SYSTEMPATH/CodeIgniter.php(927): App\Controllers\Admin\Client->updateClientAction('2')
+ 2 SYSTEMPATH/CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Client))
+ 3 SYSTEMPATH/CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()

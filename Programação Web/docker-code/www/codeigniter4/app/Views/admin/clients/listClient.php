@@ -10,7 +10,7 @@
     </tr>
 
     <?php
-    foreach ($arrayClients as $client) {
+    foreach ($clients as $client) {
 
 
     ?>
@@ -32,11 +32,11 @@
 
             
             <td>
-                <a href="<?=base_url('admin/updateClient'. $client['idClient']) ?>" class="btn btn-warning">
+                <a href="<?=base_url('admin/updateClient/'. $client['idClient']) ?>" class="btn btn-warning">
                     Alterar</a>
             </td>
             <td>
-                <a href="<?=base_url('admin/deleteClient'. $client['idClient']) ?>" class="btn btn-danger">
+                <a href="<?=base_url('admin/deleteClient/'. $client['idClient']) ?>" class="btn btn-danger">
                     Delete</a>
             </td>
         </tr>

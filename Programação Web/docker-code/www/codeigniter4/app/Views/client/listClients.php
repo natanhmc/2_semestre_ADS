@@ -11,7 +11,7 @@
     </tr>
 
     <?php
-    foreach ($arrayClients as $client) {
+    foreach ($clients as $client) {
 
 
     ?>
