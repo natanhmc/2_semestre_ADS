@@ -3,11 +3,9 @@
 <table class="table table-striped">
 
     <tr>
-        <th>Id do cliente</th>
         <th>Nome</th>
         <th>Telefone</th>
-        <th>Email</th>
-        <th>Endereço</th>
+      
     </tr>
 
     <?php
@@ -16,10 +14,7 @@
 
     ?>
         <tr>
-            <td>
-                <?= $client['idClient'] ?>
-
-            </td>
+          
             <td>
                 <?= $client['name'] ?>
 
@@ -29,17 +24,6 @@
                 <?= $client['phone'] ?>
 
             </td>
-            <td>
-                <?= $client['email'] ?>
-
-            </td>
-            <td>
-                <?= $client['address'] ?>
-
-            </td>
-           
-
-           
         </tr>
     <?php
     }

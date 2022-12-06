@@ -11,5 +11,16 @@ class ClientModel extends Model{
     protected $allowedFields =[
         'name','email','phone','address'
     ];
+    
+    function getClientsFor($search) {
+        return $this -> asArray() -> like('idClient', $search)
+        -> orLike('name', $search)
+        -> orLike('phone', $search)
+        -> orLike('email', $search)
+        -> orLike('address', $search)
+        -> findAll();
+    }
+    
+    
 }
 

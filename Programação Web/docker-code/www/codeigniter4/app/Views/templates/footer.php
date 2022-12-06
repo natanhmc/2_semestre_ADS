@@ -1,5 +1,5 @@
 </section>
-    <footer class="bg-dark p-5 text-white text-center">
+    <footer id="footerSite" class="p-3 text-white text-center">
         <h3>RODAPÉ</h3>
         <a href="<?=base_url('/admin')?>">Login</a>
     </footer>

@@ -13,13 +13,13 @@
     <!-- js -->
     <script src="assets/js/script.js"></script>
     <!-- css -->
-    <link rel="stylesheet" href="<?=base_url("assets/css/style.css")?>">
+    <link rel="stylesheet" href="<?= base_url("/assets/css/style.css") ?>">
 </head>
 
-<body >
-    <header class=" p-3 text-center">
+<body id="bodyAdmin">
+    <header id="headerAdmin" class=" p-3 text-center">
         <h1>Parte Administrativa</h1>
-        <a href="<?=base_url('admin/logout')?>">Sair</a>
+        <a href="<?= base_url('admin/logout') ?>">Sair</a>
     </header>
 
     <div class="container-fluid">
@@ -28,18 +28,23 @@
                 <h2>Menu</h2>
                 <ul class="nav flex-column">
                     <li class="nav-item p-1">
-                        <a href="<?=base_url('admin')?>">Home</a>
+                        <a  class="nav-link"  href="<?= base_url('admin') ?>">Home</a>
                     </li>
                     <li class="nav-item p-1">
-                        <a href="<?=base_url('admin/listClients')?>">Clientes</a>
+                        <a  class="nav-link"  href="<?= base_url('admin/listClients') ?>">Clientes</a>
                     </li>
                     <li class="nav-item p-1">
-                        <a href="<?=base_url('admin/insertClient')?>">Novo Cliente</a>
+                        <a  class="nav-link"  href="<?= base_url('admin/insertClient') ?>">Novo Cliente</a>
+                    </li>
+                    <li class="nav-item p-1">
+                        <a class="nav-link"  href="<?= base_url('admin/clients')?>">Lista JSON</a>
+                    </li>
+                    <li class="nav-item p-1">
+                        <form class="form" action="<?= base_url('admin/getClientsFor')?>">
+                            <input type="text" name="pesquisa">
+                            <input type="submit" value="Buscar">
+                        </form>
                     </li>
                 </ul>
             </nav>
             <section class="col-md-9">
-
-
-
-    

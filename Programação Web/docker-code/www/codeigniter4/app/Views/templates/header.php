@@ -13,11 +13,11 @@
     <!-- js -->
     <script src="assets/js/script.js"></script>
     <!-- css -->
-    <link rel="stylesheet" href="<?=base_url('assets/css/style.css')?>">
+    <link rel="stylesheet" href="<?= base_url("/assets/css/style.css") ?>">
 </head>
 
 <body>
-    <header  class="bg-dark p-5 text-center text-white">
+    <header id="headerSite" class="p-5 text-center text-white">
         <h1>Minha página de programaçao web</h1>
     </header>
 
@@ -27,22 +27,22 @@
                 <h4>Menu</h4>
                 <ul class="nav flex-column">
                     <li class="nav-item">
-                        <a id="btnHome" class="nav-link" href="<?=base_url('home')?>">Home</a>
+                        <a class="nav-link" href="<?=base_url('home')?>">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a id="btnAbout" class="nav-link" href="<?=base_url('about')?>">Sobre</a>
+                        <a class="nav-link" href="<?=base_url('about')?>">Sobre</a>
                     </li>
                     <li class="nav-item">
-                        <a id="btnProducts" class="nav-link" href="<?=base_url('products')?>">Produtos e Serviços</a>
+                        <a  class="nav-link" href="<?=base_url('products')?>">Produtos e Serviços</a>
                     </li>
                     <li class="nav-item">
-                        <a id="btnContact" class="nav-link" href="<?=base_url('contact')?>">Contatos</a>
+                        <a class="nav-link" href="<?=base_url('contact')?>">Contatos</a>
                     </li>
                 </ul>
-                <h2>Clientes</h2>
+                <h4>Clientes</h4>
                 <ul class="nav flex-column">
                     <li class="nav-item">
-                        <a id="btnHome" class="nav-link" href="<?=base_url('listClients')?>">clientes</a>
+                        <a id="btnHome" class="nav-link" href="<?=base_url('listClients')?>">Clientes</a>
                     </li>
                    
                 </ul>

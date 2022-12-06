@@ -6,6 +6,8 @@
         <th>Id do cliente</th>
         <th>Nome</th>
         <th>Telefone</th>
+        <th>Email</th>
+        <th>Endereço</th>
         <th colspan=3>Ações</th>
     </tr>
 
@@ -28,15 +30,20 @@
                 <?= $client['phone'] ?>
 
             </td>
-         
+            <td> 
+                <?= $client['email'] ?>
 
-            
+            </td>
             <td>
-                <a href="<?=base_url('admin/updateClient/'. $client['idClient']) ?>" class="btn btn-warning">
+                <?= $client['address'] ?>
+
+            </td>
+            <td>
+                <a href="<?= base_url('admin/updateClient/' . $client['idClient']) ?>" class="btn btn-warning">
                     Alterar</a>
             </td>
             <td>
-                <a href="<?=base_url('admin/deleteClient/'. $client['idClient']) ?>" class="btn btn-danger">
+                <a href="<?= base_url('admin/deleteClient/' . $client['idClient']) ?>" class="btn btn-danger">
                     Delete</a>
             </td>
         </tr>

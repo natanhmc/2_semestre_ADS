@@ -23,6 +23,6 @@ class Admin extends BaseController{
     public function logout(){
         $session = \Config\Services::session();
         $session -> destroy();
-        return redirect()-> to(base_url('admin/login'));
+        return redirect()-> to(base_url('/'));
     }
 }
